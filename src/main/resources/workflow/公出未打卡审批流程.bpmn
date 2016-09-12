@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+  <process id="WF_empOut" name="员工公出未打卡审核流程" isExecutable="true">
+    <startEvent id="start" name="公出未打卡申请开始"></startEvent>
+    <endEvent id="end" name="结束"></endEvent>
+    <userTask id="zyfzrsp" name="直营校部门负责人审批"></userTask>
+    <userTask id="zyfxxzsp" name="直营校分管校长审批"></userTask>
+    <userTask id="rlzybsp" name="人力资源部审批"></userTask>
+    <sequenceFlow id="flow1" sourceRef="start" targetRef="zyfzrsp"></sequenceFlow>
+    <sequenceFlow id="flow2" sourceRef="zyfzrsp" targetRef="zyfxxzsp"></sequenceFlow>
+    <sequenceFlow id="flow3" sourceRef="zyfxxzsp" targetRef="rlzybsp"></sequenceFlow>
+    <sequenceFlow id="flow4" sourceRef="rlzybsp" targetRef="end"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_WF_empOut">
+    <bpmndi:BPMNPlane bpmnElement="WF_empOut" id="BPMNPlane_WF_empOut">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="35.0" width="35.0" x="90.0" y="170.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end" id="BPMNShape_end">
+        <omgdc:Bounds height="35.0" width="35.0" x="770.0" y="170.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="zyfzrsp" id="BPMNShape_zyfzrsp">
+        <omgdc:Bounds height="55.0" width="105.0" x="200.0" y="160.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="zyfxxzsp" id="BPMNShape_zyfxxzsp">
+        <omgdc:Bounds height="55.0" width="105.0" x="370.0" y="160.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="rlzybsp" id="BPMNShape_rlzybsp">
+        <omgdc:Bounds height="55.0" width="105.0" x="580.0" y="160.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
+        <omgdi:waypoint x="125.0" y="187.0"></omgdi:waypoint>
+        <omgdi:waypoint x="200.0" y="187.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+        <omgdi:waypoint x="305.0" y="187.0"></omgdi:waypoint>
+        <omgdi:waypoint x="370.0" y="187.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+        <omgdi:waypoint x="475.0" y="187.0"></omgdi:waypoint>
+        <omgdi:waypoint x="580.0" y="187.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+        <omgdi:waypoint x="685.0" y="187.0"></omgdi:waypoint>
+        <omgdi:waypoint x="770.0" y="187.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

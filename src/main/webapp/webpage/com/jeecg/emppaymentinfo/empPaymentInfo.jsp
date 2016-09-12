@@ -20,16 +20,19 @@
 			<tr>
 				<td align="right"><label class="Validform_label"> 员工名称：
 				</label></td>
-				<td class="value"><input name="empNo" type="hidden"
+				<td class="value">
+				<input name="empNo" type="hidden"
 					class="inputxt" value="${empPaymentInfoPage.empNo}" id="empNo"
-					datatype="*"> <input type="text" name="empName"
+					datatype="*">
+					 <input type="text" name="empName"
 					class="inputxt" value="${empName }" id="empName"
-					readonly="readonly" datatype="*" /> <t:choose hiddenName="empNo"
-						hiddenid="empNo" url="empBaseInfoController.do?lists"
-						name="empBaseInfoList" height="400px" width="1000px"
+					readonly="readonly" datatype="*" />
+			  <t:choose hiddenName="empNo"
+						hiddenid="empNo" url="jformResumeInfoController.do?lists"
+						name="jformResumeInfoList" height="400px" width="1000px"
 						icon="icon-search" title="员工列表" textname="empName" isclear="true"
-						isInit="true"></t:choose> <span class="Validform_checktip"></span>
-
+						isInit="true"></t:choose>
+						 <span class="Validform_checktip"></span> 
 				</td>
 			</tr>
 			<tr>

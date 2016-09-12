@@ -49,7 +49,6 @@
                             <li><a href="javascript:openwindow('<t:mutiLang langKey="common.ssms.getSysInfos"/>','tSSmsController.do?getSysInfos')"><t:mutiLang langKey="common.ssms.getSysInfos"/></a></li>
                             <li><a href="javascript:add('<t:mutiLang langKey="common.change.style"/>','userController.do?changestyle','',550,250)"><t:mutiLang langKey="common.my.style"/></a></li>
                             <li><a href="javascript:clearLocalstorage()"><t:mutiLang langKey="common.clear.localstorage"/></a></li>
-                           <!-- <li><a href="http://yun.jeecg.org" target="_blank">云应用中心</li>  -->
                             <li class="divider"></li>
                             <li><a href="javascript:logout()">注销</a></li>
                         </ul>
@@ -285,105 +284,6 @@
                                 </div>
                             </a>
                         </div>
-                      <!--   <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a2.jpg">
-                                </div>
-                                <div class="media-body">
-                                    HCY48之音乐大魔王会员专属皮肤已上线，快来一键换装拥有他，宣告你对华晨宇的爱吧！
-                                    <br>
-                                    <small class="text-muted">昨天 2:45</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a3.jpg">
-
-                                    <div class="m-t-xs">
-                                        <i class="fa fa-star text-warning"></i>
-                                        <i class="fa fa-star text-warning"></i>
-                                        <i class="fa fa-star text-warning"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    写的好！与您分享
-                                    <br>
-                                    <small class="text-muted">昨天 1:10</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a4.jpg">
-                                </div>
-
-                                <div class="media-body">
-                                    国外极限小子的炼成！这还是亲生的吗！！
-                                    <br>
-                                    <small class="text-muted">昨天 8:37</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a8.jpg">
-                                </div>
-                                <div class="media-body">
-
-                                    一只流浪狗被收留后，为了减轻主人的负担，坚持自己觅食，甚至......有些东西，可能她比我们更懂。
-                                    <br>
-                                    <small class="text-muted">今天 4:21</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a7.jpg">
-                                </div>
-                                <div class="media-body">
-                                    这哥们的新视频又来了，创意杠杠滴，帅炸了！
-                                    <br>
-                                    <small class="text-muted">昨天 2:45</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a3.jpg">
-
-                                    <div class="m-t-xs">
-                                        <i class="fa fa-star text-warning"></i>
-                                        <i class="fa fa-star text-warning"></i>
-                                        <i class="fa fa-star text-warning"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    最近在补追此剧，特别喜欢这段表白。
-                                    <br>
-                                    <small class="text-muted">昨天 1:10</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="sidebar-message">
-                            <a href="#">
-                                <div class="pull-left text-center">
-                                    <img alt="image" class="img-circle message-avatar" src="plug-in-ui/hplus/img/a4.jpg">
-                                </div>
-                                <div class="media-body">
-                                    我发起了一个投票 【你认为下午大盘会翻红吗？】
-                                    <br>
-                                    <small class="text-muted">星期一 8:37</small>
-                                </div>
-                            </a>
-                        </div> -->
-                        
                     </div>
 
                 </div>
@@ -481,99 +381,7 @@
 
         </div>
     </div>
-    <!--右侧边栏结束-->
-    <!--mini聊天窗口开始-->
-    <%--<div class="small-chat-box fadeInRight animated">
-
-        <div class="heading" draggable="true">
-            <small class="chat-date pull-right">
-                2015.9.1
-            </small> 与 Beau-zihan 聊天中
-        </div>
-
-        <div class="content">
-
-            <div class="left">
-                <div class="author-name">
-                    Beau-zihan <small class="chat-date">
-                    10:02
-                </small>
-                </div>
-                <div class="chat-message active">
-                    你好
-                </div>
-
-            </div>
-            <div class="right">
-                <div class="author-name">
-                    游客
-                    <small class="chat-date">
-                        11:24
-                    </small>
-                </div>
-                <div class="chat-message">
-                    你好，请问H+有帮助文档吗？
-                </div>
-            </div>
-            <div class="left">
-                <div class="author-name">
-                    Beau-zihan
-                    <small class="chat-date">
-                        08:45
-                    </small>
-                </div>
-                <div class="chat-message active">
-                    有，购买的H+源码包中有帮助文档，位于docs文件夹下
-                </div>
-            </div>
-            <div class="right">
-                <div class="author-name">
-                    游客
-                    <small class="chat-date">
-                        11:24
-                    </small>
-                </div>
-                <div class="chat-message">
-                    那除了帮助文档还提供什么样的服务？
-                </div>
-            </div>
-            <div class="left">
-                <div class="author-name">
-                    Beau-zihan
-                    <small class="chat-date">
-                        08:45
-                    </small>
-                </div>
-                <div class="chat-message active">
-                    1.所有源码(未压缩、带注释版本)；
-                    <br> 2.说明文档；
-                    <br> 3.终身免费升级服务；
-                    <br> 4.必要的技术支持；
-                    <br> 5.付费二次开发服务；
-                    <br> 6.授权许可；
-                    <br> ……
-                    <br>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="form-chat">
-            <div class="input-group input-group-sm">
-                <input type="text" class="form-control"> <span class="input-group-btn"> <button
-                    class="btn btn-primary" type="button">发送
-            </button> </span>
-            </div>
-        </div>
-
-    </div>--%>
-    <%--<div id="small-chat">
-        <span class="badge badge-warning pull-right">5</span>
-        <a class="open-small-chat">
-            <i class="fa fa-comments"></i>
-
-        </a>
-    </div>--%>
+    
     <!--mini聊天窗口结束-->
 </div>
 
@@ -596,30 +404,7 @@
 <!-- 弹出TAB -->
 <script type="text/javascript" src="plug-in/hplus/hplus-tab.js"></script>
 <script>
-    function logout(){
-        /*bootbox.confirm("<t:mutiLang langKey="common.exit.confirm"/>", function(result) {
-            if(result)
-                location.href="loginController.do?logout";
-        });*/
-        /*swal({
-            title: "您确定要注销吗？",
-            text: "注销后需要重新登录！",
-            type: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#DD6B55",
-            confirmButtonText: "确定",
-            cancelButtonText: "取消",
-            closeOnConfirm: false,
-            closeOnCancel: true
-        },
-        function (isConfirm) {
-            if (isConfirm) {
-                //swal("注销成功！", "您已经成功注销。", "success");
-                location.href="loginController.do?logout";
-            } else {
-                return false;
-            }
-        });*/
+    function logout(){ 
         layer.confirm('您确定要注销吗？', {
             btn: ['确定','取消'], //按钮
             shade: false //不显示遮罩

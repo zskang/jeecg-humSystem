@@ -17,18 +17,24 @@
 					<input id="updateName" name="updateName" type="hidden" value="${empPositonChangeInfoPage.updateName }">
 					<input id="updateDate" name="updateDate" type="hidden" value="${empPositonChangeInfoPage.updateDate }">
 		<table style="width: 600px;" cellpadding="0" cellspacing="1" class="formtable"> 
-	 <tr>
-				<td align="right"><label class="Validform_label"> 员工名称：
-				</label></td>
-				<td class="value" colspan="3"><input name="empNo" type="hidden"
-					class="inputxt" id="empNo" datatype="*"> <input type="text"
-					name="empName" class="inputxt" id="empName" readonly="readonly"
-					datatype="*" /> <t:choose hiddenName="empNo" hiddenid="empNo"
-						url="empBaseInfoController.do?lists" name="empBaseInfoList"
-						height="400px" width="1000px" icon="icon-search" title="员工列表"
-						textname="empName" isclear="true" isInit="true"></t:choose> <span
-					class="Validform_checktip"></span></td>
-			</tr>
+	 <tr> 
+					<td align="right">
+						<label class="Validform_label">
+							员工名称:
+						</label>
+					</td>
+					<td class="value">
+					  	 <input id="empNo" name="empNo" type="hidden" style="width: 150px" class="inputxt" readonly="readonly" required="required" >
+					     	 <input id="empName" name="empName" type="text" style="width: 150px" class="inputxt" readonly="readonly" required="required">
+					     	 <t:choose hiddenName="empNo"
+						hiddenid="empNo" url="jformResumeInfoController.do?lists"
+						name="jformResumeInfoList" height="400px" width="1000px"
+						icon="icon-search" title="员工列表" textname="empName" isclear="true"
+						isInit="true"></t:choose>
+							<span class="Validform_checktip"></span>
+							<label class="Validform_label" style="display: none;">员工名称</label>
+						</td>
+					</tr>
 				<tr>
 					<td align="right">
 						<label class="Validform_label">

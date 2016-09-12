@@ -69,8 +69,7 @@ public class CgTableServiceImpl extends CommonServiceImpl implements CgTableServ
 		return result;
 	}
 	
-	@SuppressWarnings("unchecked")
-	
+	@SuppressWarnings("unchecked") 
 	public boolean delete(String table, Object id) {
 		try{
 			CgFormHeadEntity head = cgFormFieldService.getCgFormHeadByTableName(table);
@@ -217,6 +216,28 @@ public class CgTableServiceImpl extends CommonServiceImpl implements CgTableServ
 				resultMap.put("state", state);
 			}
 		}
+	}
+
+	@Override
+	public boolean tryBatch(String table, String[] ids) { 
+		try{
+			for(String id:ids){
+				toTry(table, id);
+			}
+		}catch (Exception e) {
+			throw new BusinessException(e.getMessage());
+		}
+		return true;
+
+	}
+
+	/**转试用
+	 * @param table
+	 * @param id
+	 */
+	public boolean toTry(String table, String id) {
+		return false; 
+		
 	}
 	
 }

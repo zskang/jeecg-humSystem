@@ -65,13 +65,10 @@
 		function setOrgIds() {}
 		$(function(){
 			$("#departname").prev().hide();
-		});
- <%--update-end--Author:zhangguoming  Date:20140825 for：添加组织机构combobox多选的处理方法--%>
-    </script>
-    <%--update-end--Author:jg_renjie  Date:20160320 for：#942 【组件封装】组织机构弹出模式，目前是列表，得改造成树方式--%>
+		}); 
+    </script> 
 </head>
-<body style="overflow-y: hidden" scroll="no">
-<%--update-start--Author:zhangguoming  Date:20140825 for：格式化页面代码 并 添加组织机构combobox多选框--%>
+<body style="overflow-y: hidden" scroll="no"> 
 <t:formvalid formid="formobj" dialog="true" usePlugin="password" layout="table" action="userController.do?saveUser" beforeSubmit="setOrgIds">
 	<input id="id" name="id" type="hidden" value="${user.id }">
 	<table style="width: 600px;" cellpadding="0" cellspacing="1" class="formtable">

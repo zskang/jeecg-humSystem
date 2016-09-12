@@ -218,10 +218,7 @@ a:hover {
                             <div class="menu-sep"></div>
                             <div onclick="add('<t:mutiLang langKey="common.change.style"/>','userController.do?changestyle','',550,200)">
                                 <t:mutiLang langKey="common.change.style"/>
-                            </div>
-                            <div onclick="window.open('http://yun.jeecg.org')">
-                       		 	云应用中心
-                   			 </div>
+                            </div> 
                              <div onclick="clearLocalstorage()">
                        		 	<t:mutiLang langKey="common.clear.localstorage"/>
                    			 </div>
@@ -269,16 +266,6 @@ a:hover {
 <!-- 右侧 -->
 <div collapsed="true" region="east" iconCls="icon-reload" title="<t:mutiLang langKey="common.assist.tools"/>" split="true" style="width: 190px;"
 	data-options="onCollapse:function(){easyPanelCollapase()},onExpand:function(){easyPanelExpand()}">
-	<!--
-    <div id="tabs" class="easyui-tabs" border="false" style="height: 240px">
-        <div title='<t:mutiLang langKey="common.calendar"/>' style="padding: 0px; overflow: hidden; color: red;">
-            <div id="layout_east_calendar"></div>
-        </div>
-    </div>
-    <div id="layout_jeecg_onlinePanel" data-options="fit:true,border:false" title=<t:mutiLang langKey="common.online.user"/>>
-        <table id="layout_jeecg_onlineDatagrid"></table>
-    </div>
-    -->
     <div class="easyui-layout" fit="true" border="false">
 		<div region="north" border="false" style="height:180px;overflow: hidden;">
 			<div id="tabs" class="easyui-tabs" border="false" style="height: 240px">

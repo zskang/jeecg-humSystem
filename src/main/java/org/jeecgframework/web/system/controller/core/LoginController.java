@@ -234,12 +234,12 @@ public class LoginController extends BaseController{
 			}
 
 			Cookie cookie = new Cookie("JEECGINDEXSTYLE", sysTheme.getStyle());
-			//设置cookie有效期为一个月
-			cookie.setMaxAge(3600*24*30);
+			//设置cookie有效期为一年
+			cookie.setMaxAge(3600*24*30*12);
 			response.addCookie(cookie);
 
 			Cookie zIndexCookie = new Cookie("ZINDEXNUMBER", "1990");
-			zIndexCookie.setMaxAge(3600*24);//一天
+			zIndexCookie.setMaxAge(3600*24*10);//十天
 			response.addCookie(zIndexCookie);
 
 			return sysTheme.getIndexPath();

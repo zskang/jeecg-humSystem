@@ -13,30 +13,24 @@
   <t:formvalid formid="formobj" dialog="true" usePlugin="password" layout="table" action="empWorkCheckInfoController.do?doAdd" tiptype="1" >
 					<input id="id" name="id" type="hidden" value="${empWorkCheckInfoPage.id }">
 		<table style="width: 600px;" cellpadding="0" cellspacing="1" class="formtable">
-				<tr>
-					<td align="right">
-						<label class="Validform_label">
-							员工编号:
-						</label>
-					</td>
-					<td class="value">
-					     	 <input id="empNo" name="empNo" type="text" style="width: 150px" class="inputxt"  datatype="*">
-							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">员工编号</label>
-						</td>
-				</tr>
-				<tr>
+				<tr> 
 					<td align="right">
 						<label class="Validform_label">
 							员工名称:
 						</label>
 					</td>
 					<td class="value">
-					     	 <input id="empName" name="empName" type="text" style="width: 150px" class="inputxt" >
+					  	 <input id="empNo" name="empNo" type="hidden" style="width: 150px" class="inputxt" readonly="readonly" required="required" >
+					     	 <input id="empName" name="empName" type="text" style="width: 150px" class="inputxt" readonly="readonly" required="required">
+					     	 <t:choose hiddenName="empNo"
+						hiddenid="empNo" url="jformResumeInfoController.do?lists"
+						name="jformResumeInfoList" height="400px" width="1000px"
+						icon="icon-search" title="员工列表" textname="empName" isclear="true"
+						isInit="true"></t:choose>
 							<span class="Validform_checktip"></span>
 							<label class="Validform_label" style="display: none;">员工名称</label>
 						</td>
-				</tr>
+					</tr>
 				<tr>
 					<td align="right">
 						<label class="Validform_label">

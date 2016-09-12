@@ -15,7 +15,7 @@
 	var setting = {
 	  check: {
 			enable: true,
-			radioType : "all",
+			 radioType : "all",
 			chkboxType: { "Y": "", "N": "" }
 		},
 		data: {

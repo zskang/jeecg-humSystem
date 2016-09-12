@@ -724,7 +724,7 @@
 							<tr class="first-child">
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[${subTableData_index}].name” datatype="*"  value="${subTableData['name']?if_exists?html}" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[${subTableData_index}].name" datatype="*"  value="${subTableData['name']?if_exists?html}" ignore="ignore">
 									</span></p>
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
@@ -734,17 +734,17 @@
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[${subTableData_index}].age”  datatype="*" class="inputxt"  value="${subTableData['age']?if_exists?html}" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[${subTableData_index}].age" datatype="*" class="inputxt"  value="${subTableData['age']?if_exists?html}" ignore="ignore">
 									</span></p>
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[${subTableData_index}].work_address”  datatype="*" class="inputxt"  value="${subTableData['work_address']?if_exists?html}" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[${subTableData_index}].work_address"  datatype="*" class="inputxt"  value="${subTableData['work_address']?if_exists?html}" ignore="ignore">
 									</span></p>
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[${subTableData_index}].post”  datatype="*" class="inputxt"  value="${subTableData['post']?if_exists?html}" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[${subTableData_index}].post" datatype="*" class="inputxt"  value="${subTableData['post']?if_exists?html}" ignore="ignore">
 									</span></p>
 								</td>
 			             	    <td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
@@ -759,7 +759,7 @@
 							<tr class="first-child">
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[0].name” datatype="*"  value="" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[0].name" datatype="*"  value="" ignore="ignore">
 									</span></p>
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
@@ -769,17 +769,17 @@
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[0].age”  datatype="*" class="inputxt"  value="" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[0].age" datatype="*" class="inputxt"  value="" ignore="ignore">
 									</span></p>
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[0].work_address”  datatype="*" class="inputxt"  value="" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[0].work_address"  datatype="*" class="inputxt"  value="" ignore="ignore">
 									</span></p>
 								</td>
 								<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 									<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-										<input type="text" name="jform_resume_family_info[0].post”  datatype="*" class="inputxt"  value="" ignore="ignore">
+										<input type="text" name="jform_resume_family_info[0].post" datatype="*" class="inputxt"  value="" ignore="ignore">
 									</span></p>
 								</td>
 			             	<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
@@ -1067,32 +1067,32 @@
 			<tr class="first-child">
 				<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 					<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-						<input type="text" name="jform_resume_family_info[#index#].name” datatype="*"   class="inputxt"    ignore="ignore">
+						<input type="text" name="jform_resume_family_info[#index#].name" datatype="*"   class="inputxt"    ignore="ignore">
 					</span></p>
 				</td>
 				<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 					<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-						<input type="text" name="jform_resume_family_info[#index#].alliase” datatype="*" class="inputxt"     ignore="ignore">
+						<input type="text" name="jform_resume_family_info[#index#].alliase" datatype="*" class="inputxt"     ignore="ignore">
 					</span></p>
 				</td>
 				<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 					<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-						<input type="text" name="jform_resume_family_info[#index#].age”  datatype="*" class="inputxt"   ignore="ignore">
+						<input type="text" name="jform_resume_family_info[#index#].age"  datatype="*" class="inputxt"   ignore="ignore">
 					</span></p>
 				</td>
 				<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 					<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-						<input type="text" name="jform_resume_family_info[#index#].post”  datatype="*" class="inputxt"   ignore="ignore">
+						<input type="text" name="jform_resume_family_info[#index#].post"  datatype="*" class="inputxt"   ignore="ignore">
 					</span></p>
 				</td>
 				<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 					<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-						<input type="text" name="jform_resume_family_info[#index#].work_address”  datatype="*" class="inputxt"   ignore="ignore">
+						<input type="text" name="jform_resume_family_info[#index#].work_address"  datatype="*" class="inputxt"   ignore="ignore">
 					</span></p>
 				</td>			
 					<td style="width:17%;padding: 1px;border:solid #add9c0; border-left-width: 1px; border-left-color: rgb(164, 164, 164); border-right-width: 1px; border-right-color: rgb(164, 164, 164); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(164, 164, 164);" valign="top" width="114">
 					<p class="MsoNormal" style="mso-pagination:widow-orphan;text-align:center;vertical-align:middle;"><span style="font-family:微软雅黑;color:rgb(0,0,0);font-style:normal;font-size:11.0000pt;mso-font-kerning:0.0000pt;">
-						<input type="text" name="jform_resume_family_info[#index#].mobile”  datatype="*" class="inputxt"   ignore="ignore">
+						<input type="text" name="jform_resume_family_info[#index#].mobile" datatype="*" class="inputxt"   ignore="ignore">
 					</span></p>
 				</td>				
 			 <td style="width:15%;"><button class='btn btn-small btn-success familyRow' type='button'>删除</button></td>

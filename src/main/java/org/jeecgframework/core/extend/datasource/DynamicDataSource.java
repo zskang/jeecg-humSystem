@@ -14,7 +14,7 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
 	/* 
 	 * 该方法必须要重写  方法是为了根据数据库标示符取得当前的数据库
 	 */
-	
+	 
 	protected Object determineCurrentLookupKey() {
 		DataSourceType dataSourceType= DataSourceContextHolder.getDataSourceType();
 		return dataSourceType;

@@ -45,7 +45,6 @@
 		<property name="cronExpression" value="0 0/1 * * * ?" />
 	</bean>
 
-
 	<bean id="checkTryingEmpTaskCronJob"
 		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<property name="targetObject" ref="checkTryingEmpTask" />
@@ -53,12 +52,10 @@
 		<property name="concurrent" value="true" />
 	</bean>
 
-
 	<bean id="checkTryingEmpTaskCronTrigger" class="org.jeecgframework.core.timer.DataBaseCronTriggerBean">
 		<property name="jobDetail" ref="checkTryingEmpTaskCronJob" />
 		<property name="cronExpression" value="0 0/1 * * * ?" />
 	</bean>
-
 	<bean id="warnContractEndingTaskCronJob"
 		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<property name="targetObject" ref="warnContractEndingTask" />
@@ -109,8 +106,8 @@
 		<property name="targetMethod" value="run" />
 		<property name="concurrent" value="true" />
 	</bean>
-	
-	
+
+
 	<bean id="creatEmpSalaryMonthTaskCronTrigger" class="org.jeecgframework.core.timer.DataBaseCronTriggerBean">
 		<property name="jobDetail" ref="creatEmpSalaryMonthTaskCronJob" />
 		<property name="cronExpression" value="0 0/1 0 L * ?" />

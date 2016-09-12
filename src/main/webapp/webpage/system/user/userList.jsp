@@ -2,40 +2,31 @@
 <%@include file="/context/mytags.jsp"%>
 <t:base type="jquery,easyui,tools,DatePicker"></t:base>
 
-
-<%--update-start--Author:lijun  Date:20160301 for：组织机构查询条件修改为使用departSelect标签--%>
-<%--update-start--Author:zhangguoming  Date:20140827 for：添加 组织机构查询条件--%>
 <script>
     $(function() {
-        var datagrid = $("#userListtb");
-        //datagrid.find("div[name='searchColums']").append($("#tempSearchColums div[name='searchColums']").html());
+        var datagrid = $("#userListtb"); 
 		datagrid.find("div[name='searchColums']").find("form#userListForm").append($("#realNameSearchColums div[name='searchColumsRealName']").html());
 		$("#realNameSearchColums").html('');
         datagrid.find("div[name='searchColums']").find("form#userListForm").append($("#tempSearchColums div[name='searchColums']").html());
         $("#tempSearchColums").html('');
 	});
-</script>
+</script> <%-- 
 <div id="realNameSearchColums" style="display: none;">
 	<div name="searchColumsRealName">
-		<t:userSelect windowWidth="1000px" windowHeight="600px" title="用户列表"></t:userSelect>
+		<t:userSelect windowWidth="1000px" windowHeight="800px" title="用户列表"></t:userSelect>
 	</div>
 </div>
 <div id="tempSearchColums" style="display: none;">
     <div name="searchColums">
        <t:departSelect></t:departSelect>
     </div>
-</div>
-<%--update-end--Author:zhangguoming  Date:20140827 for：添加 组织机构查询条件--%>
-<%--update-end--Author:lijun  Date:20160302 for：组织机构查询条件修改为使用departSelect标签--%>
+</div> --%>
 
 <t:datagrid name="userList" title="common.operation" actionUrl="userController.do?datagrid" 
     fit="true" fitColumns="true" idField="id" queryMode="group" sortName="id" sortOrder="desc">
 	<t:dgCol title="common.id" field="id" hidden="true"></t:dgCol>
 	<t:dgCol title="common.username" sortable="false" field="userName" query="true"></t:dgCol>
-    <%--update-start--Author:zhangguoming  Date:20140827 for：通过用户对象的关联属性值获取组织机构名称（多对多关联）--%>
-	<%--<t:dgCol title="common.department" field="TSDepart_id" query="true" replace="${departsReplace}"></t:dgCol>--%>
 	<t:dgCol title="common.department" sortable="false" field="userOrgList.tsDepart.departname" query="false"></t:dgCol>
-    <%--update-end--Author:zhangguoming  Date:20140827 for：通过用户对象的关联属性值获取组织机构名称（多对多关联）--%>
 	<t:dgCol title="common.real.name" field="realName" query="false"></t:dgCol>
 	<t:dgCol title="common.role" field="userKey" ></t:dgCol>
 	<t:dgCol title="common.createby" field="createBy" hidden="true"></t:dgCol>
@@ -108,14 +99,8 @@ function lockuploadify(url, id) {
 			
 		}
 	});
-}
-</script>
+}  
 
-<%--update-start--Author:zhangguoming  Date:20140827 for：添加 组织机构查询条件：弹出 选择组织机构列表 相关操作--%>
-<%--<a href="#" class="easyui-linkbutton" plain="true" icon="icon-search" onClick="choose_297e201048183a730148183ad85c0001()">选择</a>--%>
-<%--<a href="#" class="easyui-linkbutton" plain="true" icon="icon-redo" onClick="clearAll_297e201048183a730148183ad85c0001();">清空</a>--%>
-<script type="text/javascript">
-//    var windowapi = frameElement.api, W = windowapi.opener;
     function choose_297e201048183a730148183ad85c0001() {
         if (typeof(windowapi) == 'undefined') {
             $.dialog({content: 'url:departController.do?departSelect', zIndex: 2100, title: '<t:mutiLang langKey="common.department.list"/>', lock: true, width: 400, height: 350, opacity: 0.4, button: [
@@ -175,4 +160,3 @@ function lockuploadify(url, id) {
 		JeecgExcelExport("userController.do?exportXlsByT", "userList");
 	}
 </script>
-<%--update-end--Author:zhangguoming  Date:20140827 for：添加 组织机构查询条件：弹出 选择组织机构列表 相关操作--%>

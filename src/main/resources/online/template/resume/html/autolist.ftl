@@ -90,8 +90,12 @@ function createDataGrid${config_id}(){
 						var href='';
 						<#if config_noliststr?index_of("delete")==-1>
 						href+="[<a href='javascript:void(0)' onclick=delObj('cgAutoListController.do?del&configId=${config_id}&id="+rec.id+"','${config_id}List')>";
-						href+="删除</a>]";
-						</#if>
+						href+="删除</a>]"; 
+						</#if> 
+						<#if config_id?index_of("jform_resume_info")==-1>
+						href+="[<a href='javascript:void(0)' onclick=delObj('cgAutoListController.do?toTry&configId=${config_id}&id="+rec.id+"','${config_id}List')>";
+						href+="录用</a>]"; 
+						</#if> 
 						<#list config_buttons as x>
 							<#if x['buttonStyle'] == 'link' && x['buttonStatus']=='1' && config_noliststr?index_of("${x['buttonCode']}")==-1>
 								href+="[<a href='javascript:void(0)' buttonCode='${x['buttonCode']}' formId ='${x['formId']}' ";
@@ -301,6 +305,33 @@ function createDataGrid${config_id}(){
 			}
 		);
 	}
+	
+	function ${config_id}tryBatch(){
+		//获取选中的ID串
+		var ids = get${config_id}ListSelections('id');
+		if(ids.length<=0){
+			tip('请选择至少一条信息..............');
+			return;
+		}
+		$.dialog.confirm('确定录用吗?', function(r) {
+			if(!r){return;}
+			$.ajax({
+			    url:"cgAutoListController.do?toTryBatch",
+			    data:{'ids':ids,'configId':'${config_id}'},
+				type:"Post",
+			    dataType:"json",
+			    success:function(data){
+					tip(data.msg);
+					reload${config_id}List();
+			    },
+				error:function(data){
+					$.messager.alert('错误',data.msg);
+				}
+			});
+			}
+		);
+		
+	}
 
 	function ${config_id}ExportExcel(){
 		var queryParams = $('#${config_id}List').datagrid('options').queryParams;
@@ -376,6 +407,7 @@ function createDataGrid${config_id}(){
 	<a  id="add" href="javascript:void(0)"  class="easyui-linkbutton" plain="true"  icon="icon-add" onclick="${config_id}add()">录入</a>
 	<a  id="update" href="javascript:void(0)"  class="easyui-linkbutton" plain="true"  icon="icon-edit" onclick="${config_id}update()">编辑</a>
 	<a id="delete" href="javascript:void(0)" class="easyui-linkbutton" plain="true"  icon="icon-remove" onclick="${config_id}delBatch()">批量删除</a>
+	<a id="totry" href="javascript:void(0)" class="easyui-linkbutton" plain="true"  icon="icon-edit" onclick="${config_id}tryBatch()">批量录用</a>
 	<a id="detail" href="javascript:void(0)" class="easyui-linkbutton" plain="true"  icon="icon-search" onclick="${config_id}view()">查看</a>
 	<a id="import" href="javascript:void(0)"  class="easyui-linkbutton" plain="true"  icon="icon-put" onclick="add('${config_name}Excel数据导入','excelTempletController.do?goImplXls&tableName=${config_id}','${config_id}List')">Excel数据导入</a>
 	<a id="excel" href="javascript:void(0)" class="easyui-linkbutton" plain="true" onclick="${config_id}ExportExcel()"  icon="icon-putout">Excel导出</a>

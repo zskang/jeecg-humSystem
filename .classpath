@@ -30,5 +30,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/activiti"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/joda-time-1.6.2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/CKFinderPlugin-Watermark-2.4.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jacob-1.0.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

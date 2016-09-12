@@ -30,8 +30,8 @@
 					  	 <input id="empNo" name="empNo" type="hidden" style="width: 150px" class="inputxt" readonly="readonly" required="required" >
 					     	 <input id="empName" name="empName" type="text" style="width: 150px" class="inputxt" readonly="readonly" required="required">
 					     	 <t:choose hiddenName="empNo"
-						hiddenid="empNo" url="empBaseInfoController.do?lists"
-						name="empBaseInfoList" height="400px" width="1000px"
+						hiddenid="empNo" url="jformResumeInfoController.do?lists"
+						name="jformResumeInfoList" height="400px" width="1000px"
 						icon="icon-search" title="员工列表" textname="empName" isclear="true"
 						isInit="true"></t:choose>
 							<span class="Validform_checktip"></span>

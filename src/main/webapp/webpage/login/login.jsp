@@ -129,7 +129,7 @@
 								</div>
 							</div>
 							<div class="center">
-								<h4 class="blue" id="id-company-text">&copy; 绍康科技 版权所有</h4>
+								<h4 class="blue" id="id-company-text">&copy; 雷氏人力资源 版权所有</h4>
 							</div>
 							<div class="navbar-fixed-top align-right">
 								<br /> &nbsp; <a id="btn-login-dark" class="blue" href="#"

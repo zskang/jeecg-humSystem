@@ -1,0 +1,572 @@
+2016-09-11 22:29:39.433 [main] INFO  ProcessEngineConfigurationImpl - Found 1 auto-discoverable Process Engine Configurators
+2016-09-11 22:29:39.450 [main] INFO  ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+2016-09-11 22:29:39.450 [main] INFO  ProcessEngineConfigurationImpl - class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:29:39.451 [main] INFO  ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:29:45.110 [main] INFO  ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:29:45.623 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:29:45.633 [jmxConnectorStarterThread] INFO  DefaultManagementAgent - JMX Connector thread started and listening at: service:jmx:rmi:///jndi/rmi://SKY-20160608MSB:1099/jmxrmi/activiti
+2016-09-11 22:29:45.641 [main] DEBUG Connection - ==>  Preparing: select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' 
+2016-09-11 22:29:45.729 [main] DEBUG PreparedStatement - ==> Parameters: 
+2016-09-11 22:32:40.246 [main] INFO  ProcessEngineConfigurationImpl - Found 1 auto-discoverable Process Engine Configurators
+2016-09-11 22:32:40.252 [main] INFO  ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+2016-09-11 22:32:40.252 [main] INFO  ProcessEngineConfigurationImpl - class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:32:40.252 [main] INFO  ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:32:42.939 [main] INFO  ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:32:43.224 [jmxConnectorStarterThread] INFO  DefaultManagementAgent - JMX Connector thread started and listening at: service:jmx:rmi:///jndi/rmi://SKY-20160608MSB:1099/jmxrmi/activiti
+2016-09-11 22:32:43.241 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:32:43.252 [main] DEBUG Connection - ==>  Preparing: select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' 
+2016-09-11 22:32:43.311 [main] DEBUG PreparedStatement - ==> Parameters: 
+2016-09-11 22:36:01.612 [main] INFO  ProcessEngineConfigurationImpl - Found 1 auto-discoverable Process Engine Configurators
+2016-09-11 22:36:01.617 [main] INFO  ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+2016-09-11 22:36:01.618 [main] INFO  ProcessEngineConfigurationImpl - class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:36:01.618 [main] INFO  ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:36:06.904 [main] INFO  ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:36:07.498 [jmxConnectorStarterThread] INFO  DefaultManagementAgent - JMX Connector thread started and listening at: service:jmx:rmi:///jndi/rmi://SKY-20160608MSB:1099/jmxrmi/activiti
+2016-09-11 22:36:07.516 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:36:07.532 [main] DEBUG Connection - ==>  Preparing: select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' 
+2016-09-11 22:36:07.614 [main] DEBUG PreparedStatement - ==> Parameters: 
+2016-09-11 22:44:56.798 [main] INFO  ProcessEngineConfigurationImpl - Found 1 auto-discoverable Process Engine Configurators
+2016-09-11 22:44:56.806 [main] INFO  ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+2016-09-11 22:44:56.806 [main] INFO  ProcessEngineConfigurationImpl - class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:44:56.807 [main] INFO  ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:44:59.463 [main] INFO  ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:44:59.788 [jmxConnectorStarterThread] INFO  DefaultManagementAgent - JMX Connector thread started and listening at: service:jmx:rmi:///jndi/rmi://SKY-20160608MSB:1099/jmxrmi/activiti
+2016-09-11 22:44:59.797 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:44:59.809 [main] DEBUG Connection - ==>  Preparing: select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' 
+2016-09-11 22:44:59.878 [main] DEBUG PreparedStatement - ==> Parameters: 
+2016-09-11 22:49:54.125 [main] INFO  ProcessEngineConfigurationImpl - Found 1 auto-discoverable Process Engine Configurators
+2016-09-11 22:49:54.132 [main] INFO  ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+2016-09-11 22:49:54.132 [main] INFO  ProcessEngineConfigurationImpl - class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:49:54.132 [main] INFO  ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:49:57.305 [main] INFO  ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:49:57.640 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:49:57.655 [main] DEBUG Connection - ==>  Preparing: select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' 
+2016-09-11 22:49:57.680 [jmxConnectorStarterThread] INFO  DefaultManagementAgent - JMX Connector thread started and listening at: service:jmx:rmi:///jndi/rmi://SKY-20160608MSB:1099/jmxrmi/activiti
+2016-09-11 22:49:57.731 [main] DEBUG PreparedStatement - ==> Parameters: 
+2016-09-11 22:57:00.932 [main] INFO  ProcessEngineConfigurationImpl - Found 1 auto-discoverable Process Engine Configurators
+2016-09-11 22:57:00.942 [main] INFO  ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+2016-09-11 22:57:00.943 [main] INFO  ProcessEngineConfigurationImpl - class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:57:00.943 [main] INFO  ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:57:05.426 [main] INFO  ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.management.jmx.JMXConfigurator (priority:10000)
+2016-09-11 22:57:05.910 [jmxConnectorStarterThread] INFO  DefaultManagementAgent - JMX Connector thread started and listening at: service:jmx:rmi:///jndi/rmi://SKY-20160608MSB:1099/jmxrmi/activiti
+2016-09-11 22:57:05.910 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:05.924 [main] DEBUG Connection - ==>  Preparing: select VALUE_ from ACT_GE_PROPERTY where NAME_ = 'schema.version' 
+2016-09-11 22:57:06.011 [main] DEBUG PreparedStatement - ==> Parameters: 
+2016-09-11 22:57:06.082 [main] INFO  ProcessEngineImpl - ProcessEngine default created
+2016-09-11 22:57:06.113 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:06.113 [main] DEBUG Connection - ==>  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2016-09-11 22:57:06.114 [main] DEBUG PreparedStatement - ==> Parameters: next.dbid(String)
+2016-09-11 22:57:06.121 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:06.122 [main] DEBUG Connection - ==>  Preparing: update ACT_GE_PROPERTY SET REV_ = ?, VALUE_ = ? where NAME_ = ? and REV_ = ? 
+2016-09-11 22:57:06.123 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), 2501(String), next.dbid(String), 1(Integer)
+2016-09-11 22:57:06.134 [main] INFO  BpmnDeployer - Processing resource TestJBPM.bpmn
+2016-09-11 22:57:07.766 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.766 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2016-09-11 22:57:07.768 [main] DEBUG PreparedStatement - ==> Parameters: Interview(String), Interview(String)
+2016-09-11 22:57:07.788 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.788 [main] DEBUG Connection - ==>  Preparing: select J.* from ACT_RU_JOB J inner join ACT_RE_PROCDEF P on J.PROC_DEF_ID_ = P.ID_ where J.HANDLER_TYPE_ = ? and P.KEY_ = ? and (P.TENANT_ID_ = '' or P.TENANT_ID_ is null) 
+2016-09-11 22:57:07.789 [main] DEBUG PreparedStatement - ==> Parameters: timer-start-event(String), Interview(String)
+2016-09-11 22:57:07.805 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.806 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RE_PROCDEF(ID_, REV_, CATEGORY_, NAME_, KEY_, VERSION_, DEPLOYMENT_ID_, RESOURCE_NAME_, DGRM_RESOURCE_NAME_, DESCRIPTION_, HAS_START_FORM_KEY_, HAS_GRAPHICAL_NOTATION_ , SUSPENSION_STATE_, TENANT_ID_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:07.808 [main] DEBUG PreparedStatement - ==> Parameters: Interview:1:4(String), http://www.activiti.org/test(String), 某公司2012年实习生招聘流程(String), Interview(String), 1(Integer), 1(String), TestJBPM.bpmn(String), TestJBPM.Interview.png(String), null, false(Boolean), true(Boolean), 1(Integer), (String)
+2016-09-11 22:57:07.813 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.814 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, TENANT_ID_, DEPLOY_TIME_) values(?, ?, ?, ?, ?) 
+2016-09-11 22:57:07.823 [main] DEBUG PreparedStatement - ==> Parameters: 1(String), null, null, (String), 2016-09-11 22:57:06.106(Timestamp)
+2016-09-11 22:57:07.889 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.889 [main] DEBUG Connection - ==>  Preparing: INSERT INTO ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_) VALUES (?, 1, ?, ?, ?, ?) , (?, 1, ?, ?, ?, ?) 
+2016-09-11 22:57:07.891 [main] DEBUG PreparedStatement - ==> Parameters: 2(String), TestJBPM.bpmn(String), java.io.ByteArrayInputStream@2427361f(ByteArrayInputStream), 1(String), false(Boolean), 3(String), TestJBPM.Interview.png(String), java.io.ByteArrayInputStream@a523fc4(ByteArrayInputStream), 1(String), true(Boolean)
+2016-09-11 22:57:07.921 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.922 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null) and VERSION_ = (select max(VERSION_) from ACT_RE_PROCDEF where KEY_ = ? and (TENANT_ID_ = '' or TENANT_ID_ is null)) 
+2016-09-11 22:57:07.923 [main] DEBUG PreparedStatement - ==> Parameters: Interview(String), Interview(String)
+2016-09-11 22:57:07.931 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.932 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RE_PROCDEF where ID_ = ? 
+2016-09-11 22:57:07.932 [main] DEBUG PreparedStatement - ==> Parameters: Interview:1:4(String)
+2016-09-11 22:57:07.961 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.962 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_JOB J where J.EXECUTION_ID_ = ? 
+2016-09-11 22:57:07.962 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:07.968 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.969 [main] DEBUG Connection - ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2016-09-11 22:57:07.969 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:07.982 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:07.982 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:07.986 [main] DEBUG PreparedStatement - ==> Parameters: 8(String), Interview:1:4(String), 5(String), 5(String), 笔试(String), null, null, null, null, 2016-09-11 22:57:07.977(Timestamp), null, null, null, null, bishi(String), null, 50(Integer), null, null, (String)
+2016-09-11 22:57:07.999 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.000 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_PROCINST ( ID_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, START_TIME_, END_TIME_, DURATION_, START_USER_ID_, START_ACT_ID_, END_ACT_ID_, SUPER_PROCESS_INSTANCE_ID_, DELETE_REASON_, TENANT_ID_, NAME_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.004 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 5(String), null, Interview:1:4(String), 2016-09-11 22:57:07.944(Timestamp), null, null, null, start(String), null, null, null, (String), null
+2016-09-11 22:57:08.017 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.017 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) , (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.021 [main] DEBUG PreparedStatement - ==> Parameters: 6(String), Interview:1:4(String), 5(String), 5(String), start(String), null, null, 实习生招聘启动(String), startEvent(String), null, 2016-09-11 22:57:07.944(Timestamp), 2016-09-11 22:57:07.966(Timestamp), 22(Long), (String), 7(String), Interview:1:4(String), 5(String), 5(String), bishi(String), 8(String), null, 笔试(String), userTask(String), null, 2016-09-11 22:57:07.967(Timestamp), null, null, (String)
+2016-09-11 22:57:08.031 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.032 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.034 [main] DEBUG PreparedStatement - ==> Parameters: 9(String), candidate(String), null, 人力资源部(String), 8(String), null
+2016-09-11 22:57:08.056 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.056 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_, TENANT_ID_, NAME_) values ( ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.058 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 5(String), null, Interview:1:4(String), bishi(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), (String), null
+2016-09-11 22:57:08.072 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.072 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.074 [main] DEBUG PreparedStatement - ==> Parameters: 8(String), 笔试(String), null, null, 50(Integer), 2016-09-11 22:57:07.967(Timestamp), null, null, null, 5(String), 5(String), Interview:1:4(String), bishi(String), null, null, 1(Integer), (String), null
+2016-09-11 22:57:08.079 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.080 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.081 [main] DEBUG PreparedStatement - ==> Parameters: 9(String), candidate(String), null, 人力资源部(String), 8(String), null, null
+2016-09-11 22:57:08.144 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.144 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.145 [main] DEBUG PreparedStatement - ==> Parameters: 人力资源部(String), 2147483647(Integer), 0(Integer)
+2016-09-11 22:57:08.154 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.155 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.155 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.161 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.161 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.162 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.168 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.168 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.169 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.175 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.176 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2016-09-11 22:57:08.176 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.182 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.182 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.183 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), bishi(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.189 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.189 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.190 [main] DEBUG PreparedStatement - ==> Parameters: 10(String), participant(String), 张三(String), null, null, 5(String)
+2016-09-11 22:57:08.193 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.193 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.194 [main] DEBUG PreparedStatement - ==> Parameters: 10(String), participant(String), 张三(String), null, null, 5(String), null
+2016-09-11 22:57:08.197 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.198 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2016-09-11 22:57:08.199 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), 笔试(String), null, 50(Integer), 2016-09-11 22:57:07.967(Timestamp), null, 张三(String), null, 5(String), Interview:1:4(String), null, null, null, 1(Integer), null, 8(String), 1(Integer)
+2016-09-11 22:57:08.203 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.203 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.209 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 笔试(String), null, null, null, 张三(String), 2016-09-11 22:57:08.187(Timestamp), null, null, null, bishi(String), null, 50(Integer), null, null, 8(String)
+2016-09-11 22:57:08.216 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.216 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.217 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 张三(String), null, null, 7(String)
+2016-09-11 22:57:08.239 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.239 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.240 [main] DEBUG PreparedStatement - ==> Parameters: 张三(String)
+2016-09-11 22:57:08.271 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.271 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.272 [main] DEBUG PreparedStatement - ==> Parameters: 张三(String), 2147483647(Integer), 0(Integer)
+2016-09-11 22:57:08.287 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.287 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.287 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.295 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.295 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2016-09-11 22:57:08.296 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.300 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.301 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2016-09-11 22:57:08.301 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.309 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.309 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2016-09-11 22:57:08.309 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.320 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.320 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.320 [main] DEBUG PreparedStatement - ==> Parameters: 8(String)
+2016-09-11 22:57:08.328 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.329 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.329 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.335 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.335 [main] DEBUG Connection - ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2016-09-11 22:57:08.335 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.341 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.341 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.342 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), bishi(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.348 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.348 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.349 [main] DEBUG PreparedStatement - ==> Parameters: 12(String), Interview:1:4(String), 5(String), 5(String), 技术一面(String), null, null, null, null, 2016-09-11 22:57:08.346(Timestamp), null, null, null, null, yimian(String), null, 50(Integer), null, null, (String)
+2016-09-11 22:57:08.353 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.353 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.354 [main] DEBUG PreparedStatement - ==> Parameters: 11(String), Interview:1:4(String), 5(String), 5(String), yimian(String), 12(String), null, 技术一面(String), userTask(String), null, 2016-09-11 22:57:08.346(Timestamp), null, null, (String)
+2016-09-11 22:57:08.357 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.358 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.358 [main] DEBUG PreparedStatement - ==> Parameters: 13(String), candidate(String), null, 技术部(String), 12(String), null
+2016-09-11 22:57:08.361 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.361 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.362 [main] DEBUG PreparedStatement - ==> Parameters: 12(String), 技术一面(String), null, null, 50(Integer), 2016-09-11 22:57:08.346(Timestamp), null, null, null, 5(String), 5(String), Interview:1:4(String), yimian(String), null, null, 1(Integer), (String), null
+2016-09-11 22:57:08.365 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.366 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.366 [main] DEBUG PreparedStatement - ==> Parameters: 13(String), candidate(String), null, 技术部(String), 12(String), null, null
+2016-09-11 22:57:08.369 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.369 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.370 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), null, Interview:1:4(String), yimian(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 5(String), 1(Integer)
+2016-09-11 22:57:08.373 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.374 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.375 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 笔试(String), null, null, null, 张三(String), 2016-09-11 22:57:08.187(Timestamp), 2016-09-11 22:57:08.327(Timestamp), 350(Long), completed(String), bishi(String), null, 50(Integer), null, null, 8(String)
+2016-09-11 22:57:08.378 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.378 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.378 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 张三(String), 2016-09-11 22:57:08.345(Timestamp), 378(Long), 7(String)
+2016-09-11 22:57:08.381 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.381 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:08.382 [main] DEBUG PreparedStatement - ==> Parameters: 9(String)
+2016-09-11 22:57:08.384 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.385 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.385 [main] DEBUG PreparedStatement - ==> Parameters: 8(String), 2(Integer)
+2016-09-11 22:57:08.397 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.398 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.398 [main] DEBUG PreparedStatement - ==> Parameters: 张三(String)
+2016-09-11 22:57:08.411 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.411 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.412 [main] DEBUG PreparedStatement - ==> Parameters: 技术部(String), 2147483647(Integer), 0(Integer)
+2016-09-11 22:57:08.424 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.424 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.424 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.432 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.432 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.433 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.440 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.440 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.441 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.448 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.448 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2016-09-11 22:57:08.449 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.455 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.455 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.456 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), yimian(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.463 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.463 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.464 [main] DEBUG PreparedStatement - ==> Parameters: 14(String), participant(String), 李四(String), null, null, 5(String)
+2016-09-11 22:57:08.468 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.469 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.469 [main] DEBUG PreparedStatement - ==> Parameters: 14(String), participant(String), 李四(String), null, null, 5(String), null
+2016-09-11 22:57:08.480 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.480 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2016-09-11 22:57:08.483 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), 技术一面(String), null, 50(Integer), 2016-09-11 22:57:08.346(Timestamp), null, 李四(String), null, 5(String), Interview:1:4(String), null, null, null, 1(Integer), null, 12(String), 1(Integer)
+2016-09-11 22:57:08.487 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.487 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.489 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 技术一面(String), null, null, null, 李四(String), 2016-09-11 22:57:08.461(Timestamp), null, null, null, yimian(String), null, 50(Integer), null, null, 12(String)
+2016-09-11 22:57:08.492 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.493 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.494 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), null, null, 11(String)
+2016-09-11 22:57:08.504 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.505 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.505 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:08.509 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.510 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.510 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.514 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.514 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2016-09-11 22:57:08.515 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.518 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.519 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2016-09-11 22:57:08.519 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.525 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.525 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2016-09-11 22:57:08.525 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.529 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.530 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.530 [main] DEBUG PreparedStatement - ==> Parameters: 12(String)
+2016-09-11 22:57:08.535 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.536 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.536 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.540 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.541 [main] DEBUG Connection - ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2016-09-11 22:57:08.541 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.546 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.546 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.546 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), yimian(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.551 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.552 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.554 [main] DEBUG PreparedStatement - ==> Parameters: 16(String), Interview:1:4(String), 5(String), 5(String), 技术二面(String), null, null, null, null, 2016-09-11 22:57:08.55(Timestamp), null, null, null, null, ermian(String), null, 50(Integer), null, null, (String)
+2016-09-11 22:57:08.558 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.559 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.560 [main] DEBUG PreparedStatement - ==> Parameters: 15(String), Interview:1:4(String), 5(String), 5(String), ermian(String), 16(String), null, 技术二面(String), userTask(String), null, 2016-09-11 22:57:08.55(Timestamp), null, null, (String)
+2016-09-11 22:57:08.564 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.564 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.565 [main] DEBUG PreparedStatement - ==> Parameters: 17(String), candidate(String), null, 技术部(String), 16(String), null
+2016-09-11 22:57:08.569 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.570 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.571 [main] DEBUG PreparedStatement - ==> Parameters: 16(String), 技术二面(String), null, null, 50(Integer), 2016-09-11 22:57:08.55(Timestamp), null, null, null, 5(String), 5(String), Interview:1:4(String), ermian(String), null, null, 1(Integer), (String), null
+2016-09-11 22:57:08.575 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.575 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.576 [main] DEBUG PreparedStatement - ==> Parameters: 17(String), candidate(String), null, 技术部(String), 16(String), null, null
+2016-09-11 22:57:08.580 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.581 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.584 [main] DEBUG PreparedStatement - ==> Parameters: 3(Integer), null, Interview:1:4(String), ermian(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 5(String), 2(Integer)
+2016-09-11 22:57:08.588 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.589 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.591 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 技术一面(String), null, null, null, 李四(String), 2016-09-11 22:57:08.461(Timestamp), 2016-09-11 22:57:08.534(Timestamp), 188(Long), completed(String), yimian(String), null, 50(Integer), null, null, 12(String)
+2016-09-11 22:57:08.595 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.595 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.596 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), 2016-09-11 22:57:08.549(Timestamp), 203(Long), 11(String)
+2016-09-11 22:57:08.600 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.601 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:08.601 [main] DEBUG PreparedStatement - ==> Parameters: 13(String)
+2016-09-11 22:57:08.605 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.606 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.607 [main] DEBUG PreparedStatement - ==> Parameters: 12(String), 2(Integer)
+2016-09-11 22:57:08.620 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.621 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.621 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:08.632 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.633 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.634 [main] DEBUG PreparedStatement - ==> Parameters: 技术部(String), 2147483647(Integer), 0(Integer)
+2016-09-11 22:57:08.642 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.643 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.643 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.650 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.650 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.651 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.657 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.657 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.657 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.662 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.662 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2016-09-11 22:57:08.662 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.668 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.668 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.669 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), ermian(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.674 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.674 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2016-09-11 22:57:08.675 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), 技术二面(String), null, 50(Integer), 2016-09-11 22:57:08.55(Timestamp), null, 李四(String), null, 5(String), Interview:1:4(String), null, null, null, 1(Integer), null, 16(String), 1(Integer)
+2016-09-11 22:57:08.679 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.679 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.680 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 技术二面(String), null, null, null, 李四(String), 2016-09-11 22:57:08.672(Timestamp), null, null, null, ermian(String), null, 50(Integer), null, null, 16(String)
+2016-09-11 22:57:08.684 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.684 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.685 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), null, null, 15(String)
+2016-09-11 22:57:08.697 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.698 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.698 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:08.704 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.705 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.705 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.711 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.712 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2016-09-11 22:57:08.712 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.717 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.718 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2016-09-11 22:57:08.718 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.723 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.723 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2016-09-11 22:57:08.724 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.728 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.728 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.729 [main] DEBUG PreparedStatement - ==> Parameters: 16(String)
+2016-09-11 22:57:08.737 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.737 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.738 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.743 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.744 [main] DEBUG Connection - ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2016-09-11 22:57:08.744 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.752 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.752 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.753 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), ermian(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.761 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.761 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.763 [main] DEBUG PreparedStatement - ==> Parameters: 19(String), Interview:1:4(String), 5(String), 5(String), Hr 面试(String), null, null, null, null, 2016-09-11 22:57:08.758(Timestamp), null, null, null, null, hrmian(String), null, 50(Integer), null, null, (String)
+2016-09-11 22:57:08.767 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.768 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.769 [main] DEBUG PreparedStatement - ==> Parameters: 18(String), Interview:1:4(String), 5(String), 5(String), hrmian(String), 19(String), null, Hr 面试(String), userTask(String), null, 2016-09-11 22:57:08.758(Timestamp), null, null, (String)
+2016-09-11 22:57:08.774 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.774 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.775 [main] DEBUG PreparedStatement - ==> Parameters: 20(String), candidate(String), null, 人力资源部(String), 19(String), null
+2016-09-11 22:57:08.780 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.781 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.783 [main] DEBUG PreparedStatement - ==> Parameters: 19(String), Hr 面试(String), null, null, 50(Integer), 2016-09-11 22:57:08.758(Timestamp), null, null, null, 5(String), 5(String), Interview:1:4(String), hrmian(String), null, null, 1(Integer), (String), null
+2016-09-11 22:57:08.786 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.787 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.788 [main] DEBUG PreparedStatement - ==> Parameters: 20(String), candidate(String), null, 人力资源部(String), 19(String), null, null
+2016-09-11 22:57:08.791 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.792 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.793 [main] DEBUG PreparedStatement - ==> Parameters: 4(Integer), null, Interview:1:4(String), hrmian(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 5(String), 3(Integer)
+2016-09-11 22:57:08.797 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.797 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.798 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 技术二面(String), null, null, null, 李四(String), 2016-09-11 22:57:08.672(Timestamp), 2016-09-11 22:57:08.735(Timestamp), 185(Long), completed(String), ermian(String), null, 50(Integer), null, null, 16(String)
+2016-09-11 22:57:08.801 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.802 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.802 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), 2016-09-11 22:57:08.758(Timestamp), 208(Long), 15(String)
+2016-09-11 22:57:08.805 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.805 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:08.805 [main] DEBUG PreparedStatement - ==> Parameters: 17(String)
+2016-09-11 22:57:08.808 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.808 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.808 [main] DEBUG PreparedStatement - ==> Parameters: 16(String), 2(Integer)
+2016-09-11 22:57:08.820 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.821 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.821 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:08.827 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.827 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.827 [main] DEBUG PreparedStatement - ==> Parameters: 人力资源部(String), 2147483647(Integer), 0(Integer)
+2016-09-11 22:57:08.834 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.834 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.834 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.841 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.841 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.841 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.846 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.846 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.846 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.850 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.851 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2016-09-11 22:57:08.851 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.855 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.855 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.855 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), hrmian(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.861 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.861 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2016-09-11 22:57:08.862 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), Hr 面试(String), null, 50(Integer), 2016-09-11 22:57:08.758(Timestamp), null, 李四(String), null, 5(String), Interview:1:4(String), null, null, null, 1(Integer), null, 19(String), 1(Integer)
+2016-09-11 22:57:08.865 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.865 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.866 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), Hr 面试(String), null, null, null, 李四(String), 2016-09-11 22:57:08.859(Timestamp), null, null, null, hrmian(String), null, 50(Integer), null, null, 19(String)
+2016-09-11 22:57:08.868 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.869 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.869 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), null, null, 18(String)
+2016-09-11 22:57:08.881 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.881 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.881 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:08.887 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.888 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:08.888 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.897 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.898 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2016-09-11 22:57:08.898 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.901 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.902 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2016-09-11 22:57:08.902 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.906 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.906 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2016-09-11 22:57:08.906 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.910 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.910 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:08.910 [main] DEBUG PreparedStatement - ==> Parameters: 19(String)
+2016-09-11 22:57:08.914 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.915 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:08.915 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.920 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.921 [main] DEBUG Connection - ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2016-09-11 22:57:08.921 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:08.927 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.928 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.928 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), hrmian(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:08.934 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.935 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_TASKINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, OWNER_, ASSIGNEE_, START_TIME_, CLAIM_TIME_, END_TIME_, DURATION_, DELETE_REASON_, TASK_DEF_KEY_, FORM_KEY_, PRIORITY_, DUE_DATE_, CATEGORY_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.936 [main] DEBUG PreparedStatement - ==> Parameters: 22(String), Interview:1:4(String), 5(String), 5(String), 录用，发放Offer(String), null, null, null, null, 2016-09-11 22:57:08.933(Timestamp), null, null, null, null, luyong(String), null, 50(Integer), null, null, (String)
+2016-09-11 22:57:08.939 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.940 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.941 [main] DEBUG PreparedStatement - ==> Parameters: 21(String), Interview:1:4(String), 5(String), 5(String), luyong(String), 22(String), null, 录用，发放Offer(String), userTask(String), null, 2016-09-11 22:57:08.933(Timestamp), null, null, (String)
+2016-09-11 22:57:08.944 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.945 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_IDENTITYLINK (ID_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_) values (?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.945 [main] DEBUG PreparedStatement - ==> Parameters: 23(String), candidate(String), null, 人力资源部(String), 22(String), null
+2016-09-11 22:57:08.948 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.949 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_, ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_) values (?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:08.950 [main] DEBUG PreparedStatement - ==> Parameters: 22(String), 录用，发放Offer(String), null, null, 50(Integer), 2016-09-11 22:57:08.933(Timestamp), null, null, null, 5(String), 5(String), Interview:1:4(String), luyong(String), null, null, 1(Integer), (String), null
+2016-09-11 22:57:08.953 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.954 [main] DEBUG Connection - ==>  Preparing: insert into ACT_RU_IDENTITYLINK (ID_, REV_, TYPE_, USER_ID_, GROUP_ID_, TASK_ID_, PROC_INST_ID_, PROC_DEF_ID_) values (?, 1, ?, ?, ?, ?, ?, ?) 
+2016-09-11 22:57:08.954 [main] DEBUG PreparedStatement - ==> Parameters: 23(String), candidate(String), null, 人力资源部(String), 22(String), null, null
+2016-09-11 22:57:08.958 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.959 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_EXECUTION set REV_ = ?, BUSINESS_KEY_ = ?, PROC_DEF_ID_ = ?, ACT_ID_ = ?, IS_ACTIVE_ = ?, IS_CONCURRENT_ = ?, IS_SCOPE_ = ?, IS_EVENT_SCOPE_ = ?, PARENT_ID_ = ?, SUPER_EXEC_ = ?, SUSPENSION_STATE_ = ?, CACHED_ENT_STATE_ = ?, NAME_ = ? where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.960 [main] DEBUG PreparedStatement - ==> Parameters: 5(Integer), null, Interview:1:4(String), luyong(String), true(Boolean), false(Boolean), true(Boolean), false(Boolean), null, null, 1(Integer), 2(Integer), null, 5(String), 4(Integer)
+2016-09-11 22:57:08.964 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.964 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:08.965 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), Hr 面试(String), null, null, null, 李四(String), 2016-09-11 22:57:08.859(Timestamp), 2016-09-11 22:57:08.913(Timestamp), 155(Long), completed(String), hrmian(String), null, 50(Integer), null, null, 19(String)
+2016-09-11 22:57:08.968 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.968 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:08.969 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), 2016-09-11 22:57:08.933(Timestamp), 175(Long), 18(String)
+2016-09-11 22:57:08.974 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.974 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:08.974 [main] DEBUG PreparedStatement - ==> Parameters: 20(String)
+2016-09-11 22:57:08.978 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.978 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:08.979 [main] DEBUG PreparedStatement - ==> Parameters: 19(String), 2(Integer)
+2016-09-11 22:57:08.989 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.989 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:08.989 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:08.996 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:08.997 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* from ACT_RU_TASK RES inner join ACT_RU_IDENTITYLINK I on I.TASK_ID_ = RES.ID_ WHERE RES.ASSIGNEE_ is null and I.TYPE_ = 'candidate' and ( I.GROUP_ID_ IN ( ? ) ) order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:08.997 [main] DEBUG PreparedStatement - ==> Parameters: 人力资源部(String), 2147483647(Integer), 0(Integer)
+2016-09-11 22:57:09.005 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.005 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:09.005 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.009 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.010 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:09.010 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.014 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.014 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:09.015 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.019 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.019 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2016-09-11 22:57:09.019 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.024 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.024 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:09.025 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), luyong(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:09.030 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.030 [main] DEBUG Connection - ==>  Preparing: update ACT_RU_TASK SET REV_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, PRIORITY_ = ?, CREATE_TIME_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, DELEGATION_ = ?, EXECUTION_ID_ = ?, PROC_DEF_ID_ = ?, DESCRIPTION_ = ?, DUE_DATE_ = ?, CATEGORY_ = ?, SUSPENSION_STATE_ = ?, FORM_KEY_ = ? where ID_= ? and REV_ = ? 
+2016-09-11 22:57:09.031 [main] DEBUG PreparedStatement - ==> Parameters: 2(Integer), 录用，发放Offer(String), null, 50(Integer), 2016-09-11 22:57:08.933(Timestamp), null, 李四(String), null, 5(String), Interview:1:4(String), null, null, null, 1(Integer), null, 22(String), 1(Integer)
+2016-09-11 22:57:09.034 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.035 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:09.036 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 录用，发放Offer(String), null, null, null, 李四(String), 2016-09-11 22:57:09.028(Timestamp), null, null, null, luyong(String), null, 50(Integer), null, null, 22(String)
+2016-09-11 22:57:09.039 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.040 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:09.040 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), null, null, 21(String)
+2016-09-11 22:57:09.051 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.051 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:09.051 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:09.057 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.057 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where ID_ = ? 
+2016-09-11 22:57:09.058 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.062 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.063 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_TASK where PARENT_TASK_ID_ = ? 
+2016-09-11 22:57:09.063 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.066 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.066 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where TASK_ID_ = ? 
+2016-09-11 22:57:09.067 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.071 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.071 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_VARIABLE where TASK_ID_ = ? 
+2016-09-11 22:57:09.072 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.075 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.076 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_TASKINST where ID_ = ? 
+2016-09-11 22:57:09.076 [main] DEBUG PreparedStatement - ==> Parameters: 22(String)
+2016-09-11 22:57:09.081 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.081 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where ID_ = ? 
+2016-09-11 22:57:09.082 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.086 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.086 [main] DEBUG Connection - ==>  Preparing: select distinct T.* from ACT_RU_TASK T where T.EXECUTION_ID_ = ? 
+2016-09-11 22:57:09.086 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.092 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.093 [main] DEBUG Connection - ==>  Preparing: select RES.* from ACT_HI_ACTINST RES WHERE RES.EXECUTION_ID_ = ? and RES.ACT_ID_ = ? and RES.END_TIME_ is null order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:09.093 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), luyong(String), 1(Integer), 0(Integer)
+2016-09-11 22:57:09.099 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.099 [main] DEBUG Connection - ==>  Preparing: select * from ACT_HI_PROCINST where PROC_INST_ID_ = ? 
+2016-09-11 22:57:09.099 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.103 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.103 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_VARIABLE where EXECUTION_ID_ = ? and TASK_ID_ is null 
+2016-09-11 22:57:09.104 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.107 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.107 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_EXECUTION where PARENT_ID_ = ? 
+2016-09-11 22:57:09.107 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.110 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.110 [main] DEBUG Connection - ==>  Preparing: select * from ACT_RU_IDENTITYLINK where PROC_INST_ID_ = ? 
+2016-09-11 22:57:09.111 [main] DEBUG PreparedStatement - ==> Parameters: 5(String)
+2016-09-11 22:57:09.115 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.115 [main] DEBUG Connection - ==>  Preparing: insert into ACT_HI_ACTINST ( ID_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, ACT_ID_, TASK_ID_, CALL_PROC_INST_ID_, ACT_NAME_, ACT_TYPE_, ASSIGNEE_, START_TIME_, END_TIME_, DURATION_, TENANT_ID_ ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2016-09-11 22:57:09.117 [main] DEBUG PreparedStatement - ==> Parameters: 24(String), Interview:1:4(String), 5(String), 5(String), end(String), null, null, 实习生招聘结束(String), endEvent(String), null, 2016-09-11 22:57:09.097(Timestamp), 2016-09-11 22:57:09.097(Timestamp), 0(Long), (String)
+2016-09-11 22:57:09.122 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.122 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_PROCINST set PROC_DEF_ID_ = ?, BUSINESS_KEY_ = ?, START_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, END_ACT_ID_ = ?, DELETE_REASON_ = ?, NAME_ = ? where ID_ = ? 
+2016-09-11 22:57:09.123 [main] DEBUG PreparedStatement - ==> Parameters: Interview:1:4(String), null, 2016-09-11 22:57:07.944(Timestamp), 2016-09-11 22:57:09.102(Timestamp), 1158(Long), end(String), null, null, 5(String)
+2016-09-11 22:57:09.126 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.127 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_TASKINST set EXECUTION_ID_ = ?, NAME_ = ?, PARENT_TASK_ID_ = ?, DESCRIPTION_ = ?, OWNER_ = ?, ASSIGNEE_ = ?, CLAIM_TIME_ = ?, END_TIME_ = ?, DURATION_ = ?, DELETE_REASON_ = ?, TASK_DEF_KEY_ = ?, FORM_KEY_ = ?, PRIORITY_ = ?, DUE_DATE_ = ?, CATEGORY_ = ? where ID_ = ? 
+2016-09-11 22:57:09.128 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 录用，发放Offer(String), null, null, null, 李四(String), 2016-09-11 22:57:09.028(Timestamp), 2016-09-11 22:57:09.08(Timestamp), 147(Long), completed(String), luyong(String), null, 50(Integer), null, null, 22(String)
+2016-09-11 22:57:09.131 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.131 [main] DEBUG Connection - ==>  Preparing: update ACT_HI_ACTINST set EXECUTION_ID_ = ?, ASSIGNEE_ = ?, END_TIME_ = ?, DURATION_ = ? where ID_ = ? 
+2016-09-11 22:57:09.132 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 李四(String), 2016-09-11 22:57:09.097(Timestamp), 164(Long), 21(String)
+2016-09-11 22:57:09.135 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.135 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:09.135 [main] DEBUG PreparedStatement - ==> Parameters: 23(String)
+2016-09-11 22:57:09.138 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.138 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_TASK where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:09.138 [main] DEBUG PreparedStatement - ==> Parameters: 22(String), 2(Integer)
+2016-09-11 22:57:09.140 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.141 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:09.141 [main] DEBUG PreparedStatement - ==> Parameters: 10(String)
+2016-09-11 22:57:09.143 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.143 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_IDENTITYLINK where ID_ = ? 
+2016-09-11 22:57:09.144 [main] DEBUG PreparedStatement - ==> Parameters: 14(String)
+2016-09-11 22:57:09.146 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.146 [main] DEBUG Connection - ==>  Preparing: delete from ACT_RU_EXECUTION where ID_ = ? and REV_ = ? 
+2016-09-11 22:57:09.146 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 5(Integer)
+2016-09-11 22:57:09.169 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.169 [main] DEBUG Connection - ==>  Preparing: select count(distinct RES.ID_) from ACT_RU_TASK RES WHERE RES.ASSIGNEE_ = ? 
+2016-09-11 22:57:09.169 [main] DEBUG PreparedStatement - ==> Parameters: 李四(String)
+2016-09-11 22:57:09.181 [main] DEBUG Connection - ooo Using Connection [jdbc:mysql://localhost:3306/jeecg, UserName=root@localhost, MySQL Connector Java]
+2016-09-11 22:57:09.182 [main] DEBUG Connection - ==>  Preparing: select distinct RES.* , DEF.KEY_ as PROC_DEF_KEY_, DEF.NAME_ as PROC_DEF_NAME_, DEF.VERSION_ as PROC_DEF_VERSION_, DEF.DEPLOYMENT_ID_ as DEPLOYMENT_ID_ from ACT_HI_PROCINST RES left outer join ACT_RE_PROCDEF DEF on RES.PROC_DEF_ID_ = DEF.ID_ WHERE RES.PROC_INST_ID_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2016-09-11 22:57:09.182 [main] DEBUG PreparedStatement - ==> Parameters: 5(String), 2147483647(Integer), 0(Integer)

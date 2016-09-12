@@ -32,6 +32,7 @@ public class SendMsgForContractEndingTask {
 	public void run() {
 		long start = System.currentTimeMillis();
 		org.jeecgframework.core.util.LogUtil.info("========检索合同到期的，并发送信息给相关人员..定时任务开始===================");
+		
 		String sql="select * from ";
 		Object objs = null;
 		List<Map<String, Object>> empList=this.empBaseInfoService.findForJdbc(sql, objs);

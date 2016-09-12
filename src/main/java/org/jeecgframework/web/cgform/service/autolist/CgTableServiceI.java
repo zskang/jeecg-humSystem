@@ -67,5 +67,15 @@ public interface CgTableServiceI {
 	 */
 	public void treeFromResultHandle(String table, String parentIdFieldName,
 			String parentIdFieldType, List<Map<String, Object>> result);
+	/**
+	 * 将人才录用
+	 * @param table 表
+	 * @param ids 主键串,以逗号分隔
+	 * @return
+	 */
+	public boolean tryBatch(String table, String[] id);
+	
+	
+	public boolean toTry(String table, String id);
 
 }

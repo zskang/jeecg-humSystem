@@ -153,7 +153,8 @@ a:hover {
             </tr>
             <tr>
                 <div style="position: absolute; right: 0px; bottom: 0px;">
-                  当前时间:<span id="test"></span>   <a href="javascript:void(0);" class="easyui-menubutton" menu="#layout_north_kzmbMenu" iconCls="icon-help">
+                     	  当前平台时间:<span id="test"></span>
+              <a href="javascript:void(0);" class="easyui-menubutton" menu="#layout_north_kzmbMenu" iconCls="icon-help">
                         <t:mutiLang langKey="common.control.panel"/>
                     </a>
                     <a href="javascript:void(0);" class="easyui-menubutton" menu="#layout_north_zxMenu" iconCls="icon-back">
@@ -177,11 +178,7 @@ a:hover {
                         <t:mutiLang langKey="common.my.style"/>
                     </div>
                     
-                    <div class="menu-sep" ></div>
-                   <!--  <div onclick="window.open('http://yun.jeecg.org')">
-                         	云应用中心
-                    </div>
-                    -->
+                    <div class="menu-sep" ></div> 
                     <div onclick="clearLocalstorage()">
                         <t:mutiLang langKey="common.clear.localstorage"/>
                     </div>
@@ -213,15 +210,7 @@ a:hover {
 <!-- 右侧 -->
 <div collapsed="true" region="east" iconCls="icon-reload" title="<t:mutiLang langKey="common.assist.tools"/>" split="true" style="width: 190px;"
 	data-options="onCollapse:function(){easyPanelCollapase()},onExpand:function(){easyPanelExpand()}">
-    <!--<div id="tabs" class="easyui-tabs" border="false" style="height: 240px">
-        <div title="<t:mutiLang langKey="common.calendar"/>" style="padding: 0px; overflow: hidden; color: red;">
-            <div id="layout_east_calendar"></div>
-        </div>
-    </div>
-    <div id="layout_jeecg_onlinePanel" data-options="fit:true,border:false" title=<t:mutiLang langKey="common.online.user"/>>
-        <table id="layout_jeecg_onlineDatagrid"></table>
-    </div>
-    -->
+ 
     
     <div class="easyui-layout" fit="true" border="false">
 		<div region="north" border="false" style="height:180px;overflow: hidden;">
@@ -242,7 +231,7 @@ a:hover {
 <div region="south" border="false" style="height: 25px; overflow: hidden;">
     <div align="center" style="color: #CC99FF; padding-top: 2px">
       <span class="tip">
-            绍康科技有限公司  
+         雷式人力资源有限公司 信息部 提供支持
         </span>   
     &copy;版权所有
     </div>
